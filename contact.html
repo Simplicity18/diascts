@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact & Support • DIASCTS</title>
+     <link rel="stylesheet"href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">DIASCTS</a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="login.html" class="nav-link">Login</a>
+          <a href="dashboard.html" class="nav-link">Dashboard</a>
+          <a href="inventory.html" class="nav-link">Inventory</a>
+          <a href="supply.html" class="nav-link">Supply</a>
+          <a href="reports.html" class="nav-link">Reports</a>
+          <a href="contact.html" class="nav-link is-active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container narrow">
+      <section class="card form-card">
+        <h1>Contact & Support</h1>
+        <form class="form" action="#" method="post">
+          <div class="form-row">
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="How can we help?" required></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Send</button>
+            <a class="btn" href="index.html">Cancel</a>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year">2025</span> DIASCTS. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login • DIASCTS</title>
+  <link rel="stylesheet"href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">DIASCTS</a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="login.html" class="nav-link is-active">Login</a>
+          <a href="dashboard.html" class="nav-link">Dashboard</a>
+          <a href="inventory.html" class="nav-link">Inventory</a>
+          <a href="supply.html" class="nav-link">Supply</a>
+          <a href="reports.html" class="nav-link">Reports</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container narrow">
+      <section class="card form-card">
+        <h1>Login</h1>
+        <form class="form" action="#" method="post">
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-row">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="••••••••" required />
+          </div>
+          <div class="form-row">
+            <label for="role">Role</label>
+            <select id="role" name="role">
+              <option>Admin</option>
+              <option>Supplier</option>
+              <option>Pharmacist</option>
+              <option>Distributor</option>
+            </select>
+          </div>
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Sign in</button>
+            <a class="btn" href="index.html">Cancel</a>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year">2025</span> DIASCTS. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

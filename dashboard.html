@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard • DIASCTS</title>
+   <link rel="stylesheet"href="style.css">
+   
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">DIASCTS</a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="login.html" class="nav-link">Login</a>
+          <a href="dashboard.html" class="nav-link is-active">Dashboard</a>
+          <a href="inventory.html" class="nav-link">Inventory</a>
+          <a href="supply.html" class="nav-link">Supply</a>
+          <a href="reports.html" class="nav-link">Reports</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Dashboard</h1>
+      <section class="card-grid">
+        <div class="card stat-card">
+          <div class="stat-label">Total Drugs</div>
+          <div class="stat-value">1,284</div>
+        </div>
+        <div class="card stat-card warning">
+          <div class="stat-label">Low Stock Alerts</div>
+          <div class="stat-value">23</div>
+        </div>
+        <div class="card stat-card info">
+          <div class="stat-label">Pending Deliveries</div>
+          <div class="stat-value">9</div>
+        </div>
+        <div class="card stat-card success">
+          <div class="stat-label">On-time Shipments</div>
+          <div class="stat-value">96%</div>
+        </div>
+      </section>
+
+      <section class="grid-2">
+        <div class="card">
+          <h2>Recent Activity</h2>
+          <ul class="list">
+            <li>Batch B-9281 received from Supplier Alpha</li>
+            <li>10 items of Amoxicillin flagged as low stock</li>
+            <li>Shipment SHP-2207 arrived at Central Depot</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2>Open Alerts</h2>
+          <ul class="list">
+            <li class="tag warning">3 drugs expiring in 7 days</li>
+            <li class="tag info">2 shipments delayed</li>
+            <li class="tag">Stock reconciliation needed</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year">2025</span> DIASCTS. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+

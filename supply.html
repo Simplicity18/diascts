@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supply Chain Tracking • DIASCTS</title>
+   <link rel="stylesheet"href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">DIASCTS</a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="login.html" class="nav-link">Login</a>
+          <a href="dashboard.html" class="nav-link">Dashboard</a>
+          <a href="inventory.html" class="nav-link">Inventory</a>
+          <a href="supply.html" class="nav-link is-active">Supply</a>
+          <a href="reports.html" class="nav-link">Reports</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Supply Chain Tracking</h1>
+
+      <section class="grid-2">
+        <div class="card">
+          <h2>Shipment Timeline</h2>
+          <ol class="list">
+            <li><strong>SHP-2207</strong> — Dispatched from Supplier Alpha (2025-10-10)</li>
+            <li><strong>SHP-2207</strong> — Arrived at Regional Hub (2025-10-12)</li>
+            <li><strong>SHP-2207</strong> — Out for Delivery (2025-10-13)</li>
+            <li><strong>SHP-2207</strong> — Delivered to Central Depot (2025-10-14)</li>
+          </ol>
+        </div>
+
+        <div class="card table-wrap">
+          <h2>Shipments</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Shipment ID</th>
+                <th>Batch</th>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>SHP-2207</td>
+                <td>B-9281</td>
+                <td>Supplier Alpha</td>
+                <td>Central Depot</td>
+                <td><span class="tag success">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>SHP-2211</td>
+                <td>B-9310</td>
+                <td>Supplier Beta</td>
+                <td>Regional Hub</td>
+                <td><span class="tag info">In Transit</span></td>
+              </tr>
+              <tr>
+                <td>SHP-2213</td>
+                <td>B-9322</td>
+                <td>BioPharm Co.</td>
+                <td>Pharmacy A</td>
+                <td><span class="tag warning">Delayed</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year">2025</span> DIASCTS. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
